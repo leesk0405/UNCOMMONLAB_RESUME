@@ -1,6 +1,6 @@
 .back {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.09;
 }
 .back img{
   width: 75%;
@@ -45,7 +45,7 @@ header .nav_btn span {
   display: block;
   width: 28px;
   height: 3px;
-  background-color: #333;
+  background-color: #1860e8;
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 6px;
@@ -115,6 +115,7 @@ header nav .close_btn span:last-child{
 header nav .gnb {
   margin-top: 80px;
   font-weight: 500;
+  
 }
 header nav .gnb li:hover{
   text-decoration: underline;
@@ -122,6 +123,7 @@ header nav .gnb li:hover{
 header nav .gnb li{
   margin-bottom: 30px;
   font-size: 1.5rem;/*24*/
+  color: #1860e8;
 } 
 header nav .gnb li:last-child {
   margin: 0;
@@ -149,17 +151,24 @@ header nav .gnb li:last-child {
   padding-bottom: 16px;
   width: 100%;
   font-size: 1.625rem;
+  color: #1860e8;
+  background: linear-gradient(to right, #1860e8, #c213ff); /* 그라데이션 색상 설정 */
+  -webkit-background-clip: text; /* 텍스트에만 배경을 적용 */
+  -webkit-text-fill-color: transparent; /* 텍스트 색상을 투명으로 설정하여 배경이 보이도록 함 */
   /* font-size: 26px; */
 }
 .banner .main_title .title_1 span{
   /* font-size: 24px; */
-  background-color: #f2f2f2;
+  background-color: #1860e8;
+  color: #fff;
   font-weight: 600;
   padding: 2px;
 }
 .banner .main_title .title_2{}
 .banner .main_title .title_2 p{
   font-size: 1rem;/*20*/
+  color: #1860e8;
+  font-weight: 500;
 }
 .banner .con .item:first-child .box {
   width: 10px;
@@ -179,6 +188,7 @@ header nav .gnb li:last-child {
 .title {
   font-size:2rem;
   margin-bottom: 16px;
+  color: #1860e8;
 }
 .row1 {
   padding: 16px;
@@ -190,7 +200,8 @@ header nav .gnb li:last-child {
 .row1 .con{}
 .row1 .con .item{
   padding: 12px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: #f0f6ff;
   border-radius: 4px;
   margin-bottom: 20px;
   color: #333;
@@ -231,7 +242,8 @@ header nav .gnb li:last-child {
   width: calc(25% - 16px );
   aspect-ratio: 1/1;
   margin-bottom: 32px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: #f0f6ff;;
   border-radius: 8px;
   display: flex;
   height: 100%;
@@ -428,7 +440,8 @@ header nav .gnb li:last-child {
 }
 
 footer {
-  background-color: #000;
+  background-color: #1860e8;
+  background: linear-gradient(to right, #1860e8, #c213ff); /* 그라데이션 색상 설정 */
   color: #fff;
 }
 footer .foot_inner {
